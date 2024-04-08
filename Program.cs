@@ -5,7 +5,7 @@ class Program
     static void Main(string[] args)
     {
         string choice = null;
-        Hotel JapanPrinceHotel = new Hotel("Hong Kong Hotel");
+        Hotel JapanPrinceHotel = new Hotel("Japan Hotel");
 
         List<Room> rooms = new List<Room>();
         SingleRoom single101 = new SingleRoom(101);
@@ -34,7 +34,7 @@ class Program
 
         Console.Clear();
 
-        Console.WriteLine("Welcome to Hong Kong Hotel!");
+        Console.WriteLine("Welcome to Japan Hotel!");
         Console.WriteLine("What is your name?");
         Console.Write("=> ");
         customerName = Console.ReadLine();
